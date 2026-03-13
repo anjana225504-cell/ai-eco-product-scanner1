@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 
-openai.api_key = st.secrets["openai"][""]
+openai.api_key = st.secrets["openai"]["sk-...GSUA"]
 
 st.title("🌱 AI Eco Product Scanner")
 st.write("Type a product name and get its environmental impact!")
