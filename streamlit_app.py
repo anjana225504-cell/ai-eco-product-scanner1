@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Load OpenAI API key from secrets
-openai.api_key = st.secrets["openai"]["api_key"]
+openai.api_key = st.secrets["openai"]["sk-...GSUA"]
 
 st.set_page_config(page_title="AI Eco Product Scanner", page_icon="🌱")
 
